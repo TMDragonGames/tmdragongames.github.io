@@ -36,7 +36,6 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      padding: 24px 16px;
       text-align: center;
       /* A soft green glow behind the card */
       background:
@@ -47,7 +46,7 @@
     .card {
       width: 100%;
       max-width: 420px;
-      padding: 36px 24px 28px;
+      padding: 30px;
       background: var(--card-bg);
       border: 1px solid var(--border-color);
       border-radius: 20px;
@@ -59,6 +58,7 @@
       line-height: 1;
       display: inline-block;
       padding: 20px;
+      letter-spacing: 5px;
     }
 
     h1 {
@@ -82,7 +82,7 @@
       text-transform: uppercase;
     }
 
-    p {
+    .message {
       margin: 0 0 22px;
       font-size: 17px;
       line-height: 1.5;
@@ -121,9 +121,8 @@
   <main class="card">
     <h1>Dragon Games</h1>
     <div class="dragon" aria-hidden="true">🐉🎲♠️♦️</div>
-    <div class="soon">Coming Soon</div>
-    <p>A new home for word and puzzle games is on its way. In the meantime, come play Anagram Dragon.</p>
-    <a class="play" href="https://playdragongames.com/anagram-dragon/">Play Anagram Dragon</a>
+    <div class="message"> A new home for word and puzzle games.</div>
+    <div><a class="play" href="/anagram-dragon/">Play Anagram Dragon</a></div>
   </main>
 
   <footer>© 2026 Tanya Miranda</footer>
